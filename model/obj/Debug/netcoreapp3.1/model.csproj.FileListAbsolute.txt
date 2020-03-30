@@ -1,0 +1,7 @@
+C:\Users\yimar\source\repos\airQualityData\model\bin\Debug\netcoreapp3.1\model.exe
+C:\Users\yimar\source\repos\airQualityData\model\obj\Debug\netcoreapp3.1\model.csprojAssemblyReference.cache
+C:\Users\yimar\source\repos\airQualityData\model\obj\Debug\netcoreapp3.1\model.AssemblyInfoInputs.cache
+C:\Users\yimar\source\repos\airQualityData\model\obj\Debug\netcoreapp3.1\model.AssemblyInfo.cs
+C:\Users\yimar\source\repos\airQualityData\model\bin\Debug\netcoreapp3.1\SODA.dll
+C:\Users\yimar\source\repos\airQualityData\model\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\yimar\source\repos\airQualityData\model\obj\Debug\netcoreapp3.1\model.csproj.CopyComplete
