@@ -20,3 +20,29 @@ C:\Users\yimar\source\repos\airQualityData\model\bin\Debug\netcoreapp3.1\Microso
 C:\Users\yimar\source\repos\airQualityData\model\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
 C:\Users\yimar\source\repos\airQualityData\model\obj\Debug\netcoreapp3.1\model.dll
 C:\Users\yimar\source\repos\airQualityData\model\obj\Debug\netcoreapp3.1\model.pdb
+C:\Users\Juan Naranjo\Documents\workspace\airQualityData\model\bin\Debug\netcoreapp3.1\model.exe
+C:\Users\Juan Naranjo\Documents\workspace\airQualityData\model\bin\Debug\netcoreapp3.1\model.deps.json
+C:\Users\Juan Naranjo\Documents\workspace\airQualityData\model\bin\Debug\netcoreapp3.1\model.runtimeconfig.json
+C:\Users\Juan Naranjo\Documents\workspace\airQualityData\model\bin\Debug\netcoreapp3.1\model.runtimeconfig.dev.json
+C:\Users\Juan Naranjo\Documents\workspace\airQualityData\model\bin\Debug\netcoreapp3.1\model.dll
+C:\Users\Juan Naranjo\Documents\workspace\airQualityData\model\bin\Debug\netcoreapp3.1\model.pdb
+C:\Users\Juan Naranjo\Documents\workspace\airQualityData\model\bin\Debug\netcoreapp3.1\SODA.dll
+C:\Users\Juan Naranjo\Documents\workspace\airQualityData\model\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\Juan Naranjo\Documents\workspace\airQualityData\model\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Juan Naranjo\Documents\workspace\airQualityData\model\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\Juan Naranjo\Documents\workspace\airQualityData\model\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\Juan Naranjo\Documents\workspace\airQualityData\model\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\Juan Naranjo\Documents\workspace\airQualityData\model\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\Juan Naranjo\Documents\workspace\airQualityData\model\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\Juan Naranjo\Documents\workspace\airQualityData\model\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\Juan Naranjo\Documents\workspace\airQualityData\model\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Juan Naranjo\Documents\workspace\airQualityData\model\obj\Debug\netcoreapp3.1\model.csprojAssemblyReference.cache
+C:\Users\Juan Naranjo\Documents\workspace\airQualityData\model\obj\Debug\netcoreapp3.1\model.AssemblyInfoInputs.cache
+C:\Users\Juan Naranjo\Documents\workspace\airQualityData\model\obj\Debug\netcoreapp3.1\model.AssemblyInfo.cs
+C:\Users\Juan Naranjo\Documents\workspace\airQualityData\model\obj\Debug\netcoreapp3.1\model.csproj.CopyComplete
+C:\Users\Juan Naranjo\Documents\workspace\airQualityData\model\obj\Debug\netcoreapp3.1\model.dll
+C:\Users\Juan Naranjo\Documents\workspace\airQualityData\model\obj\Debug\netcoreapp3.1\model.pdb
+C:\Users\Juan Naranjo\Documents\workspace\airQualityData\model\obj\Debug\netcoreapp3.1\model.genruntimeconfig.cache
+C:\Users\Juan Naranjo\Documents\workspace\airQualityData\model\bin\Debug\netcoreapp3.1\GMap.NET.Core.dll
+C:\Users\Juan Naranjo\Documents\workspace\airQualityData\model\bin\Debug\netcoreapp3.1\GMap.NET.WindowsForms.dll
+C:\Users\Juan Naranjo\Documents\workspace\airQualityData\model\obj\Debug\netcoreapp3.1\model.csproj.CoreCompileInputs.cache

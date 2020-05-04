@@ -11,6 +11,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+using GMap.NET;
+using GMap.NET.MapProviders;
+using GMap.NET.WindowsForms;
+using GMap.NET.WindowsForms.Markers;
+
 namespace ui
 {
     public partial class Form1 : Form
@@ -58,25 +63,26 @@ namespace ui
             List<String> data = Soda(textBox1.Text, textBox2.Text, textBox3.Text);
             for (int i = 0; i < data.Count; i++)
             {
-                dataTable.Columns.Add(new DataColumn(data[i], typeof(String)));
+                String[] valor = data[i].Split(':');
+                dataTable.Columns.Add(new DataColumn(valor[0], typeof(String)));
             }
             readInfo(textBox2.Text);
             dataGridView1.DataSource = dataTable;
-            dataGridView1.Columns[1].Visible = true;
-            dataGridView1.Columns[2].Visible = true;
-            dataGridView1.Columns[3].Visible = true;
-            dataGridView1.Columns[4].Visible = true;
-            dataGridView1.Columns[5].Visible = true;
-            dataGridView1.Columns[6].Visible = true;
-            dataGridView1.Columns[7].Visible = true;
-            dataGridView1.Columns[8].Visible = true;
-            dataGridView1.Columns[9].Visible = true;
-            dataGridView1.Columns[10].Visible = true;
-            dataGridView1.Columns[11].Visible = true;
-            dataGridView1.Columns[12].Visible = true;
-            dataGridView1.Columns[13].Visible = true;
-            dataGridView1.Columns[14].Visible = true;
-            dataGridView1.Columns[15].Visible = true;
+            dataGridView1.Columns[1].Visible = true; //Fecha
+            dataGridView1.Columns[2].Visible = true; //Autoridad Ambiental
+            dataGridView1.Columns[3].Visible = true; //Nombre de la Estacion
+            dataGridView1.Columns[4].Visible = true; //Tecnologia
+            dataGridView1.Columns[5].Visible = true; //Latitud
+            dataGridView1.Columns[6].Visible = true; //Codigo del Departamento
+            dataGridView1.Columns[7].Visible = true; //Departamento
+            dataGridView1.Columns[8].Visible = true; //Codigo del Municipio
+            dataGridView1.Columns[9].Visible = true; //Nombre del Municipio
+            dataGridView1.Columns[10].Visible = true; //Tipo de Estacion
+            dataGridView1.Columns[11].Visible = true; //Tipo de Exposicion
+            dataGridView1.Columns[12].Visible = true; //Variable
+            dataGridView1.Columns[13].Visible = true; //Unidades
+            dataGridView1.Columns[14].Visible = true; //Concentracion
+            dataGridView1.Columns[15].Visible = true; //Georeferencia
         }
 
 
@@ -168,6 +174,13 @@ namespace ui
 
         private void dataGridView1_CellContentClick_1(object sender, DataGridViewCellEventArgs e)
         {
+
+        }
+
+        private void mapa_Click(object sender, EventArgs e)
+        {
+            dataGridView1.Visible = false;
+            gMapControl.Visible = true;
 
         }
     }

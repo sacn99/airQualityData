@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\yimar\\source\\repos\\airQualityData\\model\\model.csproj": {}
+    "C:\\Users\\Juan Naranjo\\Documents\\workspace\\airQualityData\\model\\model.csproj": {}
   },
   "projects": {
-    "C:\\Users\\yimar\\source\\repos\\airQualityData\\model\\model.csproj": {
+    "C:\\Users\\Juan Naranjo\\Documents\\workspace\\airQualityData\\model\\model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\yimar\\source\\repos\\airQualityData\\model\\model.csproj",
+        "projectUniqueName": "C:\\Users\\Juan Naranjo\\Documents\\workspace\\airQualityData\\model\\model.csproj",
         "projectName": "model",
-        "projectPath": "C:\\Users\\yimar\\source\\repos\\airQualityData\\model\\model.csproj",
-        "packagesPath": "C:\\Users\\yimar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\yimar\\source\\repos\\airQualityData\\model\\obj\\",
+        "projectPath": "C:\\Users\\Juan Naranjo\\Documents\\workspace\\airQualityData\\model\\model.csproj",
+        "packagesPath": "C:\\Users\\Juan Naranjo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Juan Naranjo\\Documents\\workspace\\airQualityData\\model\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\yimar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Juan Naranjo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -42,6 +42,10 @@
               "target": "Package",
               "version": "[0.10.1, )"
             },
+            "GMap.NET.WindowsForms": {
+              "target": "Package",
+              "version": "[1.7.5, )"
+            },
             "Microsoft.Extensions.Configuration.Json": {
               "target": "Package",
               "version": "[3.1.3, )"
@@ -66,7 +70,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
