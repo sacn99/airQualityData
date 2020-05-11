@@ -18,12 +18,12 @@ using GMap.NET.WindowsForms.Markers;
 
 namespace ui
 {
-    public partial class Form1 : Form
+    public partial class FormDataTable : Form
     {
         DataTable dataTable;
         private String filter;
 
-        public Form1()
+        public FormDataTable()
         {
             InitializeComponent();
         }
