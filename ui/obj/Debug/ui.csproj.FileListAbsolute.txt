@@ -5,7 +5,6 @@ C:\Users\yimar\source\repos\airQualityData\ui\bin\Debug\Newtonsoft.Json.dll
 C:\Users\yimar\source\repos\airQualityData\ui\bin\Debug\SODA.dll
 C:\Users\yimar\source\repos\airQualityData\ui\bin\Debug\Newtonsoft.Json.xml
 C:\Users\yimar\source\repos\airQualityData\ui\obj\Debug\ui.csprojAssemblyReference.cache
-C:\Users\yimar\source\repos\airQualityData\ui\obj\Debug\ui.Form1.resources
 C:\Users\yimar\source\repos\airQualityData\ui\obj\Debug\ui.Properties.Resources.resources
 C:\Users\yimar\source\repos\airQualityData\ui\obj\Debug\ui.csproj.GenerateResource.cache
 C:\Users\yimar\source\repos\airQualityData\ui\obj\Debug\ui.csproj.CopyComplete
@@ -44,3 +43,7 @@ C:\Users\sacn9\source\repos\airQualityData\ui\bin\Debug\ui.pdb
 C:\Users\sacn9\source\repos\airQualityData\ui\obj\Debug\ui.exe
 C:\Users\sacn9\source\repos\airQualityData\ui\obj\Debug\ui.pdb
 C:\Users\sacn9\source\repos\airQualityData\ui\obj\Debug\ui.FormDataTable.resources
+C:\Users\yimar\source\repos\airQualityData\ui\bin\Debug\GMap.NET.Core.dll
+C:\Users\yimar\source\repos\airQualityData\ui\bin\Debug\GMap.NET.WindowsForms.dll
+C:\Users\yimar\source\repos\airQualityData\ui\obj\Debug\ui.FormDataTable.resources
+C:\Users\yimar\source\repos\airQualityData\ui\obj\Debug\ui.menu.resources

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sacn9\\source\\repos\\airQualityData\\model\\model.csproj": {}
+    "C:\\Users\\yimar\\source\\repos\\airQualityData\\model\\model.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sacn9\\source\\repos\\airQualityData\\model\\model.csproj": {
+    "C:\\Users\\yimar\\source\\repos\\airQualityData\\model\\model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sacn9\\source\\repos\\airQualityData\\model\\model.csproj",
+        "projectUniqueName": "C:\\Users\\yimar\\source\\repos\\airQualityData\\model\\model.csproj",
         "projectName": "model",
-        "projectPath": "C:\\Users\\sacn9\\source\\repos\\airQualityData\\model\\model.csproj",
-        "packagesPath": "C:\\Users\\sacn9\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sacn9\\source\\repos\\airQualityData\\model\\obj\\",
+        "projectPath": "C:\\Users\\yimar\\source\\repos\\airQualityData\\model\\model.csproj",
+        "packagesPath": "C:\\Users\\yimar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\yimar\\source\\repos\\airQualityData\\model\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\sacn9\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\yimar\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -52,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
