@@ -44,3 +44,6 @@ C:\Users\sacn9\source\repos\airQualityData\ui\bin\Debug\ui.pdb
 C:\Users\sacn9\source\repos\airQualityData\ui\obj\Debug\ui.exe
 C:\Users\sacn9\source\repos\airQualityData\ui\obj\Debug\ui.pdb
 C:\Users\sacn9\source\repos\airQualityData\ui\obj\Debug\ui.FormDataTable.resources
+C:\Users\sacn9\source\repos\airQualityData\ui\obj\Debug\ui.FormSODATable.resources
+C:\Users\sacn9\source\repos\airQualityData\ui\bin\Debug\CapaDatos.dll
+C:\Users\sacn9\source\repos\airQualityData\ui\bin\Debug\CapaDatos.pdb

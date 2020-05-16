@@ -118,6 +118,12 @@
     <Compile Include="FormDataTable.Designer.cs">
       <DependentUpon>FormDataTable.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormSODATable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSODATable.Designer.cs">
+      <DependentUpon>FormSODATable.cs</DependentUpon>
+    </Compile>
     <Compile Include="menu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -128,6 +134,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FormDataTable.resx">
       <DependentUpon>FormDataTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSODATable.resx">
+      <DependentUpon>FormSODATable.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="menu.resx">
       <DependentUpon>menu.cs</DependentUpon>
@@ -200,6 +209,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\settins icon-Blue %28Munsell%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CapaDatos\CapaDatos.csproj">
+      <Project>{d2b5ec0b-75a6-4f37-bb4b-e5c8c77608c2}</Project>
+      <Name>CapaDatos</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

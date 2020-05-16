@@ -90,7 +90,7 @@ namespace ui
 
         private void buttonFormDataTable_Click(object sender, EventArgs e)
         {
-            openFormInPanel(new FormDataTable());
+            openFormInPanel(new FormSODATable());
         }
     }
 }
