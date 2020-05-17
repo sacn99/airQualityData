@@ -33,7 +33,6 @@ namespace ui
         private void showRecords(DataTable ds)
         {
             dataGridView1.DataSource = ds;
-            Console.WriteLine(""+ds.Columns.Count);
             dataGridView1.Columns[0].Visible = true; //Fecha
             dataGridView1.Columns[1].Visible = true; //Autoridad Ambiental
             dataGridView1.Columns[2].Visible = true; //Nombre de la Estacion

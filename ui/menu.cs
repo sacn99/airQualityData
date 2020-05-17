@@ -92,5 +92,10 @@ namespace ui
         {
             openFormInPanel(new FormSODATable());
         }
+
+        private void MapButton_Click(object sender, EventArgs e)
+        {
+            openFormInPanel(new FormMaps());
+        }
     }
 }
