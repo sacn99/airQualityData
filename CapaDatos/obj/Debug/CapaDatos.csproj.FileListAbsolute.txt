@@ -8,3 +8,13 @@ C:\Users\sacn9\source\repos\airQualityData\CapaDatos\obj\Debug\CapaDatos.csproj.
 C:\Users\sacn9\source\repos\airQualityData\CapaDatos\obj\Debug\CapaDatos.csproj.CopyComplete
 C:\Users\sacn9\source\repos\airQualityData\CapaDatos\obj\Debug\CapaDatos.dll
 C:\Users\sacn9\source\repos\airQualityData\CapaDatos\obj\Debug\CapaDatos.pdb
+C:\Users\Juan Naranjo\Documents\workspace\airQualityData\CapaDatos\bin\Debug\CapaDatos.dll
+C:\Users\Juan Naranjo\Documents\workspace\airQualityData\CapaDatos\bin\Debug\CapaDatos.pdb
+C:\Users\Juan Naranjo\Documents\workspace\airQualityData\CapaDatos\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Juan Naranjo\Documents\workspace\airQualityData\CapaDatos\bin\Debug\SODA.dll
+C:\Users\Juan Naranjo\Documents\workspace\airQualityData\CapaDatos\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Juan Naranjo\Documents\workspace\airQualityData\CapaDatos\obj\Debug\CapaDatos.csprojAssemblyReference.cache
+C:\Users\Juan Naranjo\Documents\workspace\airQualityData\CapaDatos\obj\Debug\CapaDatos.csproj.CoreCompileInputs.cache
+C:\Users\Juan Naranjo\Documents\workspace\airQualityData\CapaDatos\obj\Debug\CapaDatos.csproj.CopyComplete
+C:\Users\Juan Naranjo\Documents\workspace\airQualityData\CapaDatos\obj\Debug\CapaDatos.dll
+C:\Users\Juan Naranjo\Documents\workspace\airQualityData\CapaDatos\obj\Debug\CapaDatos.pdb

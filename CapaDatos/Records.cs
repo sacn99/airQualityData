@@ -22,7 +22,7 @@ namespace CapaDatos
             var rowsPerPage = 20;
             var x = (nPage-1) * rowsPerPage;
 
-            var client = new SodaClient("https://www.datos.gov.co", "0ZxbhxPYsq48evOeRDVFeHuCA");
+            var client = new SodaClient("https://www.datos.gov.co", "4VQQ9iZluaLN4aeY2wbOFlhF9");
             var dataset = client.GetResource<Object>("ysq6-ri4e");
             var rows = dataset.GetRows(limit: rowsPerPage, offset:x);
             var table = new DataTable();
@@ -45,25 +45,32 @@ namespace CapaDatos
             return table; 
         }
 
-        public DataTable ToDataTable<T>(IList<T> data)
+        public DataTable ToDataTable<Record>(IList<Record> data)
         {
-            PropertyDescriptorCollection props =
-            TypeDescriptor.GetProperties(typeof(T));
             DataTable table = new DataTable();
-            for (int i = 0; i < props.Count; i++)
+            
+            table.Columns.Add(new DataColumn("Fecha", typeof(String)));
+            table.Columns.Add(new DataColumn("Autoridad Ambiental", typeof(String)));
+            table.Columns.Add(new DataColumn("Nombre de la Estacion", typeof(String)));
+            table.Columns.Add(new DataColumn("Tecnologia", typeof(String)));
+            table.Columns.Add(new DataColumn("Latitud", typeof(String)));
+            table.Columns.Add(new DataColumn("Longitud", typeof(String)));
+            table.Columns.Add(new DataColumn("Codigo del Departamento", typeof(String)));
+            table.Columns.Add(new DataColumn("Departamento", typeof(String)));
+            table.Columns.Add(new DataColumn("Codigo del Municipio", typeof(String)));
+            table.Columns.Add(new DataColumn("Municipio", typeof(String)));
+            table.Columns.Add(new DataColumn("Tipo de Estacion", typeof(String)));
+            table.Columns.Add(new DataColumn("Tiempo de Exposicion", typeof(String)));
+            table.Columns.Add(new DataColumn("Variable", typeof(String)));
+            table.Columns.Add(new DataColumn("Unidades", typeof(String)));
+            table.Columns.Add(new DataColumn("Concentracion", typeof(String)));
+
+            for (int i = 0; i < data.Count; i++)
             {
-                PropertyDescriptor prop = props[i];
-                table.Columns.Add(prop.Name, prop.PropertyType);
+                String[] values = new string[15];
+                
             }
-            object[] values = new object[props.Count];
-            foreach (T item in data)
-            {
-                for (int i = 0; i < values.Length; i++)
-                {
-                    values[i] = props[i].GetValue(item);
-                }
-                table.Rows.Add(values);
-            }
+            
             return table;
         }
 

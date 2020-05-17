@@ -82,7 +82,6 @@ namespace ui
             dataGridView1.Columns[12].Visible = true; //Variable
             dataGridView1.Columns[13].Visible = true; //Unidades
             dataGridView1.Columns[14].Visible = true; //Concentracion
-            dataGridView1.Columns[15].Visible = true; //Georeferencia
         }
 
 
@@ -122,7 +121,7 @@ namespace ui
             try
             {
 
-                var url = "https://www.datos.gov.co/resource/" + bdId + ".json?" + filter + "&$limit=10&$offset=20";
+                var url = "https://www.datos.gov.co/resource/" + bdId + ".json?" + filter + "$select=fecha,autoridad_ambiental,nombre_de_la_estaci_n,tecnolog_a,latitud,longitud,c_digo_del_departamento,departamento,c_digo_del_municipio,nombre_del_municipio,tipo_de_estaci_n,tiempo_de_exposici_n,variable,unidades,concentraci_n&$limit=10&$offset=20";
                 var client = new WebClient();
                 using (var stream = client.OpenRead(url))
                 using (var reader = new StreamReader(stream))

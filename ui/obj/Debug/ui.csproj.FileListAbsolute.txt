@@ -20,7 +20,6 @@ C:\Users\Juan Naranjo\Documents\workspace\airQualityData\ui\bin\Debug\Newtonsoft
 C:\Users\Juan Naranjo\Documents\workspace\airQualityData\ui\bin\Debug\SODA.dll
 C:\Users\Juan Naranjo\Documents\workspace\airQualityData\ui\bin\Debug\Newtonsoft.Json.xml
 C:\Users\Juan Naranjo\Documents\workspace\airQualityData\ui\obj\Debug\ui.csprojAssemblyReference.cache
-C:\Users\Juan Naranjo\Documents\workspace\airQualityData\ui\obj\Debug\ui.Form1.resources
 C:\Users\Juan Naranjo\Documents\workspace\airQualityData\ui\obj\Debug\ui.Properties.Resources.resources
 C:\Users\Juan Naranjo\Documents\workspace\airQualityData\ui\obj\Debug\ui.csproj.GenerateResource.cache
 C:\Users\Juan Naranjo\Documents\workspace\airQualityData\ui\obj\Debug\ui.csproj.CoreCompileInputs.cache
@@ -47,3 +46,8 @@ C:\Users\sacn9\source\repos\airQualityData\ui\obj\Debug\ui.FormDataTable.resourc
 C:\Users\sacn9\source\repos\airQualityData\ui\obj\Debug\ui.FormSODATable.resources
 C:\Users\sacn9\source\repos\airQualityData\ui\bin\Debug\CapaDatos.dll
 C:\Users\sacn9\source\repos\airQualityData\ui\bin\Debug\CapaDatos.pdb
+C:\Users\Juan Naranjo\Documents\workspace\airQualityData\ui\bin\Debug\CapaDatos.dll
+C:\Users\Juan Naranjo\Documents\workspace\airQualityData\ui\bin\Debug\CapaDatos.pdb
+C:\Users\Juan Naranjo\Documents\workspace\airQualityData\ui\obj\Debug\ui.FormDataTable.resources
+C:\Users\Juan Naranjo\Documents\workspace\airQualityData\ui\obj\Debug\ui.FormSODATable.resources
+C:\Users\Juan Naranjo\Documents\workspace\airQualityData\ui\obj\Debug\ui.menu.resources
