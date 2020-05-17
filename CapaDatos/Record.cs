@@ -186,6 +186,30 @@ namespace CapaDatos
             Concentraci_n = conc;
         }
 
+        public string[] RecordArray() {
+
+            string[] array = new string[15];
+
+            array[0] = Fecha;
+            array[1] = Autoridad_ambiental;
+            array[2] = Nombre_de_la_estaci_n;
+            array[3] = Tecnolog_a;
+            array[4] = Latitud;
+            array[5] = Longitud;
+            array[6] = C_digo_del_departamento;
+            array[7] = Departamento;
+            array[8] = C_digo_del_municipio;
+            array[9] = Nombre_del_municipio;
+            array[10] = Tipo_de_estaci_n;
+            array[11] = Tiempo_de_exposici_n;
+            array[12] = Variable;
+            array[13] = Unidades;
+            array[14] = Concentraci_n;
+
+            return array;
+
+        }
+
 
         public Record(String fecha, String autoridad_ambiental, String nombre_de_la_estaci_n, String tecnolog_a, String latitud, String longitud, String c_digo_del_departamento, String departamento, String c_digo_del_municipio, String nombre_del_municipio, String tipo_de_estaci_n, String tiempo_de_exposici_n, String variable, String unidades, String concentraci_n)
         {

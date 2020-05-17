@@ -31,7 +31,7 @@ namespace CapaDatos
 
             List<Record> RecordList = JsonConvert.DeserializeObject<List<Record>>(js);
 
-            table = ToDataTable<Record>(RecordList);
+            table = ToDataTable(RecordList);
 
             for (int i = 0; i<rows.Count();i++)
             {
@@ -45,7 +45,7 @@ namespace CapaDatos
             return table; 
         }
 
-        public DataTable ToDataTable<Record>(IList<Record> data)
+        public DataTable ToDataTable(IList<Record> data)
         {
             DataTable table = new DataTable();
             
@@ -67,8 +67,8 @@ namespace CapaDatos
 
             for (int i = 0; i < data.Count; i++)
             {
-                String[] values = new string[15];
-                
+                String[] values = data[i].RecordArray();
+                table.Rows.Add(values);
             }
             
             return table;
