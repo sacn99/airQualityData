@@ -24,6 +24,8 @@ namespace ui
         double latInicial = 4.6097102;
         double LngInicial = -74.081749;
 
+        GMapOverlay Circulos = new GMapOverlay("Circulos");
+
         public FormMaps()
         {
             InitializeComponent();
@@ -90,8 +92,6 @@ namespace ui
             string autoridadAmbiental = dataGridView.Rows[filaSeleccionada].Cells[1].Value.ToString();
             string nombreEstacion = dataGridView.Rows[filaSeleccionada].Cells[2].Value.ToString();
             string tecnologia = dataGridView.Rows[filaSeleccionada].Cells[3].Value.ToString();
-            string latitud = dataGridView.Rows[filaSeleccionada].Cells[4].Value.ToString();
-            string longitud = dataGridView.Rows[filaSeleccionada].Cells[5].Value.ToString();
             string departamento = dataGridView.Rows[filaSeleccionada].Cells[7].Value.ToString();
             string municipio = dataGridView.Rows[filaSeleccionada].Cells[9].Value.ToString();
             string tipoEstacion = dataGridView.Rows[filaSeleccionada].Cells[10].Value.ToString();
@@ -112,6 +112,45 @@ namespace ui
                 , fecha, autoridadAmbiental, nombreEstacion, tecnologia, departamento, municipio, tipoEstacion, tiempoExposicion, variable, unidades, concentracion);
 
             gMapControl.Zoom = 9;
+        }
+
+        private void btnHeatMap_Click(object sender, EventArgs e)
+        {
+            GeoCoderStatusCode statusCode;
+            for (int i = 0; i < dataGridView.Rows.Count; i++)
+            {
+                string municipio = dataGridView.Rows[i].Cells[9].Value.ToString();
+                PointLatLng? pointLatLng1 = OpenStreet4UMapProvider.Instance.GetPoint(municipio + ",COLOMBIA", out statusCode);
+                PointF pointF = new PointF();
+                pointF.X = Convert.ToSingle(pointLatLng1.Value.Lat);
+                pointF.Y = Convert.ToSingle(pointLatLng1.Value.Lng);
+                CreateCircle(pointF, 0.1, 1080);
+            }
+            gMapControl.Overlays.Add(Circulos);
+        }
+
+        private void CreateCircle(PointF point, double radius, int segments)
+        {
+
+            List<PointLatLng> gpollist = new List<PointLatLng>();
+
+            double seg = Math.PI * 2 / segments;
+
+            int y = 0;
+            for (int i = 0; i < segments; i++)
+            {
+                double theta = seg * i;
+                double a = point.X + Math.Cos(theta) * radius;
+                double b = point.Y + Math.Sin(theta) * radius;
+
+                PointLatLng gpoi = new PointLatLng(a, b);
+
+                gpollist.Add(gpoi);
+            }
+            GMapPolygon gpol = new GMapPolygon(gpollist, "pol");
+            gpol.Fill = new SolidBrush(Color.FromArgb(5, Color.Red));
+            gpol.Stroke = new Pen(Color.Red, 1);
+            Circulos.Polygons.Add(gpol);
         }
     }
 }

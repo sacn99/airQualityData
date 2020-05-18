@@ -37,6 +37,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.txtCiudad = new System.Windows.Forms.TextBox();
             this.dataGridView = new System.Windows.Forms.DataGridView();
+            this.btnHeatMap = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).BeginInit();
             this.SuspendLayout();
             // 
@@ -62,7 +63,7 @@
             this.gMapControl.ScaleMode = GMap.NET.WindowsForms.ScaleModes.Integer;
             this.gMapControl.SelectedAreaFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(65)))), ((int)(((byte)(105)))), ((int)(((byte)(225)))));
             this.gMapControl.ShowTileGridLines = false;
-            this.gMapControl.Size = new System.Drawing.Size(828, 564);
+            this.gMapControl.Size = new System.Drawing.Size(828, 623);
             this.gMapControl.TabIndex = 0;
             this.gMapControl.Zoom = 0D;
             // 
@@ -140,11 +141,22 @@
             this.dataGridView.TabIndex = 1;
             this.dataGridView.CellMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.SeleccionarRegistro);
             // 
+            // btnHeatMap
+            // 
+            this.btnHeatMap.Location = new System.Drawing.Point(1081, 606);
+            this.btnHeatMap.Name = "btnHeatMap";
+            this.btnHeatMap.Size = new System.Drawing.Size(125, 28);
+            this.btnHeatMap.TabIndex = 8;
+            this.btnHeatMap.Text = "Show Heat Map";
+            this.btnHeatMap.UseVisualStyleBackColor = true;
+            this.btnHeatMap.Click += new System.EventHandler(this.btnHeatMap_Click);
+            // 
             // FormMaps
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1219, 588);
+            this.ClientSize = new System.Drawing.Size(1219, 647);
+            this.Controls.Add(this.btnHeatMap);
             this.Controls.Add(this.dataGridView);
             this.Controls.Add(this.btnCiudad);
             this.Controls.Add(this.label3);
@@ -175,5 +187,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txtCiudad;
         private System.Windows.Forms.DataGridView dataGridView;
+        private System.Windows.Forms.Button btnHeatMap;
     }
 }

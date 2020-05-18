@@ -38,8 +38,9 @@
             this.panelFilters.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(195)))), ((int)(((byte)(198)))));
             this.panelFilters.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelFilters.Location = new System.Drawing.Point(0, 0);
+            this.panelFilters.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panelFilters.Name = "panelFilters";
-            this.panelFilters.Size = new System.Drawing.Size(200, 600);
+            this.panelFilters.Size = new System.Drawing.Size(267, 578);
             this.panelFilters.TabIndex = 0;
             // 
             // dataGridView1
@@ -48,19 +49,22 @@
             this.dataGridView1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(220)))), ((int)(((byte)(221)))));
             this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(261, 67);
+            this.dataGridView1.Location = new System.Drawing.Point(286, 13);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(678, 442);
+            this.dataGridView1.RowHeadersWidth = 51;
+            this.dataGridView1.Size = new System.Drawing.Size(904, 544);
             this.dataGridView1.TabIndex = 1;
             // 
             // FormSODATable
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1050, 600);
+            this.ClientSize = new System.Drawing.Size(1210, 578);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.panelFilters);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "FormSODATable";
             this.Text = "FormSODATable";
             this.Load += new System.EventHandler(this.FormSODATable_Load);
