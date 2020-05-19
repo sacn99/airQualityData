@@ -46,3 +46,19 @@ C:\Users\Juan Naranjo\Documents\workspace\airQualityData\model\obj\Debug\netcore
 C:\Users\Juan Naranjo\Documents\workspace\airQualityData\model\bin\Debug\netcoreapp3.1\GMap.NET.Core.dll
 C:\Users\Juan Naranjo\Documents\workspace\airQualityData\model\bin\Debug\netcoreapp3.1\GMap.NET.WindowsForms.dll
 C:\Users\Juan Naranjo\Documents\workspace\airQualityData\model\obj\Debug\netcoreapp3.1\model.csproj.CoreCompileInputs.cache
+C:\Users\sacn9\source\repos\airQualityData\model\bin\Debug\netcoreapp3.1\model.exe
+C:\Users\sacn9\source\repos\airQualityData\model\bin\Debug\netcoreapp3.1\model.deps.json
+C:\Users\sacn9\source\repos\airQualityData\model\bin\Debug\netcoreapp3.1\model.runtimeconfig.json
+C:\Users\sacn9\source\repos\airQualityData\model\bin\Debug\netcoreapp3.1\model.runtimeconfig.dev.json
+C:\Users\sacn9\source\repos\airQualityData\model\bin\Debug\netcoreapp3.1\model.dll
+C:\Users\sacn9\source\repos\airQualityData\model\bin\Debug\netcoreapp3.1\model.pdb
+C:\Users\sacn9\source\repos\airQualityData\model\obj\Debug\netcoreapp3.1\model.csprojAssemblyReference.cache
+C:\Users\sacn9\source\repos\airQualityData\model\obj\Debug\netcoreapp3.1\model.AssemblyInfoInputs.cache
+C:\Users\sacn9\source\repos\airQualityData\model\obj\Debug\netcoreapp3.1\model.AssemblyInfo.cs
+C:\Users\sacn9\source\repos\airQualityData\model\obj\Debug\netcoreapp3.1\model.dll
+C:\Users\sacn9\source\repos\airQualityData\model\obj\Debug\netcoreapp3.1\model.pdb
+C:\Users\sacn9\source\repos\airQualityData\model\obj\Debug\netcoreapp3.1\model.genruntimeconfig.cache
+C:\Users\sacn9\source\repos\airQualityData\model\obj\Debug\netcoreapp3.1\model.csproj.CoreCompileInputs.cache
+C:\Users\sacn9\source\repos\airQualityData\model\bin\Debug\netcoreapp3.1\SODA.dll
+C:\Users\sacn9\source\repos\airQualityData\model\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\sacn9\source\repos\airQualityData\model\obj\Debug\netcoreapp3.1\model.csproj.CopyComplete
