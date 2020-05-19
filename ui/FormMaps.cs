@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -148,9 +149,152 @@ namespace ui
                 gpollist.Add(gpoi);
             }
             GMapPolygon gpol = new GMapPolygon(gpollist, "pol");
-            gpol.Fill = new SolidBrush(Color.FromArgb(5, Color.Red));
+            gpol.Fill = new SolidBrush(Color.FromArgb(25, Color.Red));
             gpol.Stroke = new Pen(Color.Red, 1);
             Circulos.Polygons.Add(gpol);
+        }
+
+        private void btnCiudad_Click(object sender, EventArgs e)
+        {
+            Records r = new Records();
+            DataTable ds = r.ShowTableCiudadFilter(txtCiudad.Text);
+            dataGridView.DataSource = ds;
+
+            dataGridView.Columns[1].Visible = false; //Autoridad Ambiental
+            dataGridView.Columns[2].Visible = false; //Nombre de la Estacion
+            dataGridView.Columns[3].Visible = false; //Tecnologia
+            dataGridView.Columns[4].Visible = false; //Latitud
+            dataGridView.Columns[5].Visible = false; //Codigo del Departamento
+            dataGridView.Columns[6].Visible = false; //Departamento
+            dataGridView.Columns[8].Visible = false; //Nombre del Municipio
+            dataGridView.Columns[10].Visible = false; //Tipo de Exposicion
+            dataGridView.Columns[11].Visible = false; //Variable
+            dataGridView.Columns[12].Visible = false; //Unidades
+            dataGridView.Columns[13].Visible = false; //Concentracion
+            dataGridView.Columns[14].Visible = false; //Concentracion
+        }
+
+        private void btnFecha_Click(object sender, EventArgs e)
+        {
+            DataTable table = new DataTable();
+
+            table.Columns.Add(new DataColumn("Fecha", typeof(String)));
+            table.Columns.Add(new DataColumn("Autoridad Ambiental", typeof(String)));
+            table.Columns.Add(new DataColumn("Nombre de la Estacion", typeof(String)));
+            table.Columns.Add(new DataColumn("Tecnologia", typeof(String)));
+            table.Columns.Add(new DataColumn("Latitud", typeof(String)));
+            table.Columns.Add(new DataColumn("Longitud", typeof(String)));
+            table.Columns.Add(new DataColumn("Codigo del Departamento", typeof(String)));
+            table.Columns.Add(new DataColumn("Departamento", typeof(String)));
+            table.Columns.Add(new DataColumn("Codigo del Municipio", typeof(String)));
+            table.Columns.Add(new DataColumn("Municipio", typeof(String)));
+            table.Columns.Add(new DataColumn("Tipo de Estacion", typeof(String)));
+            table.Columns.Add(new DataColumn("Tiempo de Exposicion", typeof(String)));
+            table.Columns.Add(new DataColumn("Variable", typeof(String)));
+            table.Columns.Add(new DataColumn("Unidades", typeof(String)));
+            table.Columns.Add(new DataColumn("Concentracion", typeof(String)));
+
+            DataRow[] rows = new DataRow[dataGridView.Rows.Count];
+            
+            for (int i = 0; i < dataGridView.Rows.Count; i++)
+            {
+                if (dataGridView[0, i].Value.ToString().Contains(txtFecha.Text))
+                {
+                    rows[i] = (dataGridView.Rows[i].DataBoundItem as DataRowView).Row;
+                }
+            }
+
+            foreach (DataRow dr in rows)
+            {
+                table.ImportRow(dr);
+            }
+
+            dataGridView.DataSource = table;
+
+            dataGridView.Columns[1].Visible = false; //Autoridad Ambiental
+            dataGridView.Columns[2].Visible = false; //Nombre de la Estacion
+            dataGridView.Columns[3].Visible = false; //Tecnologia
+            dataGridView.Columns[4].Visible = false; //Latitud
+            dataGridView.Columns[5].Visible = false; //Codigo del Departamento
+            dataGridView.Columns[6].Visible = false; //Departamento
+            dataGridView.Columns[8].Visible = false; //Nombre del Municipio
+            dataGridView.Columns[10].Visible = false; //Tipo de Exposicion
+            dataGridView.Columns[11].Visible = false; //Variable
+            dataGridView.Columns[12].Visible = false; //Unidades
+            dataGridView.Columns[13].Visible = false; //Concentracion
+            dataGridView.Columns[14].Visible = false; //Concentracion
+
+        }
+
+        private void btnVariable_Click(object sender, EventArgs e)
+        {
+            Records r = new Records();
+            DataTable ds = r.ShowTableVariableFilter(txtVariable.Text);
+            dataGridView.DataSource = ds;
+
+            dataGridView.Columns[1].Visible = false; //Autoridad Ambiental
+            dataGridView.Columns[2].Visible = false; //Nombre de la Estacion
+            dataGridView.Columns[3].Visible = false; //Tecnologia
+            dataGridView.Columns[4].Visible = false; //Latitud
+            dataGridView.Columns[5].Visible = false; //Codigo del Departamento
+            dataGridView.Columns[6].Visible = false; //Departamento
+            dataGridView.Columns[8].Visible = false; //Nombre del Municipio
+            dataGridView.Columns[10].Visible = false; //Tipo de Exposicion
+            dataGridView.Columns[11].Visible = false; //Variable
+            dataGridView.Columns[12].Visible = false; //Unidades
+            dataGridView.Columns[13].Visible = false; //Concentracion
+            dataGridView.Columns[14].Visible = false; //Concentracion
+        }
+
+        private void btnVariableTabla_Click(object sender, EventArgs e)
+        {
+            DataTable table = new DataTable();
+
+            table.Columns.Add(new DataColumn("Fecha", typeof(String)));
+            table.Columns.Add(new DataColumn("Autoridad Ambiental", typeof(String)));
+            table.Columns.Add(new DataColumn("Nombre de la Estacion", typeof(String)));
+            table.Columns.Add(new DataColumn("Tecnologia", typeof(String)));
+            table.Columns.Add(new DataColumn("Latitud", typeof(String)));
+            table.Columns.Add(new DataColumn("Longitud", typeof(String)));
+            table.Columns.Add(new DataColumn("Codigo del Departamento", typeof(String)));
+            table.Columns.Add(new DataColumn("Departamento", typeof(String)));
+            table.Columns.Add(new DataColumn("Codigo del Municipio", typeof(String)));
+            table.Columns.Add(new DataColumn("Municipio", typeof(String)));
+            table.Columns.Add(new DataColumn("Tipo de Estacion", typeof(String)));
+            table.Columns.Add(new DataColumn("Tiempo de Exposicion", typeof(String)));
+            table.Columns.Add(new DataColumn("Variable", typeof(String)));
+            table.Columns.Add(new DataColumn("Unidades", typeof(String)));
+            table.Columns.Add(new DataColumn("Concentracion", typeof(String)));
+
+            DataRow[] rows = new DataRow[dataGridView.Rows.Count];
+
+            for (int i = 0; i < dataGridView.Rows.Count; i++)
+            {
+                if (dataGridView[13, i].Value.ToString().Equals(txtFecha.Text, StringComparison.InvariantCultureIgnoreCase))
+                {
+                    rows[i] = (dataGridView.Rows[i].DataBoundItem as DataRowView).Row;
+                }
+            }
+
+            foreach (DataRow dr in rows)
+            {
+                table.ImportRow(dr);
+            }
+
+            dataGridView.DataSource = table;
+
+            dataGridView.Columns[1].Visible = false; //Autoridad Ambiental
+            dataGridView.Columns[2].Visible = false; //Nombre de la Estacion
+            dataGridView.Columns[3].Visible = false; //Tecnologia
+            dataGridView.Columns[4].Visible = false; //Latitud
+            dataGridView.Columns[5].Visible = false; //Codigo del Departamento
+            dataGridView.Columns[6].Visible = false; //Departamento
+            dataGridView.Columns[8].Visible = false; //Nombre del Municipio
+            dataGridView.Columns[10].Visible = false; //Tipo de Exposicion
+            dataGridView.Columns[11].Visible = false; //Variable
+            dataGridView.Columns[12].Visible = false; //Unidades
+            dataGridView.Columns[13].Visible = false; //Concentracion
+            dataGridView.Columns[14].Visible = false; //Concentracion
         }
     }
 }
