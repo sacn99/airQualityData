@@ -7,6 +7,8 @@ This project aims to analyze from the data obtained from the data set <b><a href
 <ul>
   <li><a href="https://github.com/sacn99/airQualityData/commit/3dc174f61c6ec257c875b85bcc56bf247b14e49a">First Delivery</a></li>
   <li><a href="https://github.com/sacn99/airQualityData">Second Delivery</a></li>
+  <li><a href="https://github.com/sacn99/airQualityData/tree/master/Tercera%20Entrega">Third Delivery</a></li>
+  <li><a href="https://github.com/sacn99/airQualityData/tree/master/Final%20Entrega">Final Delivery</a></li>
 </ul>
 
 ## Made by
