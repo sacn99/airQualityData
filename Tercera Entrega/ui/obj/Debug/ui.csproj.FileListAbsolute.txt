@@ -1,0 +1,85 @@
+C:\Users\yimar\source\repos\airQualityData\ui\bin\Debug\ui.exe.config
+C:\Users\yimar\source\repos\airQualityData\ui\bin\Debug\ui.exe
+C:\Users\yimar\source\repos\airQualityData\ui\bin\Debug\ui.pdb
+C:\Users\yimar\source\repos\airQualityData\ui\bin\Debug\Newtonsoft.Json.dll
+C:\Users\yimar\source\repos\airQualityData\ui\bin\Debug\SODA.dll
+C:\Users\yimar\source\repos\airQualityData\ui\bin\Debug\Newtonsoft.Json.xml
+C:\Users\yimar\source\repos\airQualityData\ui\obj\Debug\ui.csprojAssemblyReference.cache
+C:\Users\yimar\source\repos\airQualityData\ui\obj\Debug\ui.Form1.resources
+C:\Users\yimar\source\repos\airQualityData\ui\obj\Debug\ui.Properties.Resources.resources
+C:\Users\yimar\source\repos\airQualityData\ui\obj\Debug\ui.csproj.GenerateResource.cache
+C:\Users\yimar\source\repos\airQualityData\ui\obj\Debug\ui.csproj.CopyComplete
+C:\Users\yimar\source\repos\airQualityData\ui\obj\Debug\ui.exe
+C:\Users\yimar\source\repos\airQualityData\ui\obj\Debug\ui.pdb
+C:\Users\Juan Naranjo\Documents\workspace\airQualityData\ui\bin\Debug\ui.exe.config
+C:\Users\Juan Naranjo\Documents\workspace\airQualityData\ui\bin\Debug\ui.exe
+C:\Users\Juan Naranjo\Documents\workspace\airQualityData\ui\bin\Debug\ui.pdb
+C:\Users\Juan Naranjo\Documents\workspace\airQualityData\ui\bin\Debug\GMap.NET.Core.dll
+C:\Users\Juan Naranjo\Documents\workspace\airQualityData\ui\bin\Debug\GMap.NET.WindowsForms.dll
+C:\Users\Juan Naranjo\Documents\workspace\airQualityData\ui\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Juan Naranjo\Documents\workspace\airQualityData\ui\bin\Debug\SODA.dll
+C:\Users\Juan Naranjo\Documents\workspace\airQualityData\ui\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Juan Naranjo\Documents\workspace\airQualityData\ui\obj\Debug\ui.csprojAssemblyReference.cache
+C:\Users\Juan Naranjo\Documents\workspace\airQualityData\ui\obj\Debug\ui.Properties.Resources.resources
+C:\Users\Juan Naranjo\Documents\workspace\airQualityData\ui\obj\Debug\ui.csproj.GenerateResource.cache
+C:\Users\Juan Naranjo\Documents\workspace\airQualityData\ui\obj\Debug\ui.csproj.CoreCompileInputs.cache
+C:\Users\Juan Naranjo\Documents\workspace\airQualityData\ui\obj\Debug\ui.csproj.CopyComplete
+C:\Users\Juan Naranjo\Documents\workspace\airQualityData\ui\obj\Debug\ui.exe
+C:\Users\Juan Naranjo\Documents\workspace\airQualityData\ui\obj\Debug\ui.pdb
+C:\Users\sacn9\source\repos\airQualityData\ui\bin\Debug\GMap.NET.Core.dll
+C:\Users\sacn9\source\repos\airQualityData\ui\bin\Debug\GMap.NET.WindowsForms.dll
+C:\Users\sacn9\source\repos\airQualityData\ui\bin\Debug\Newtonsoft.Json.dll
+C:\Users\sacn9\source\repos\airQualityData\ui\bin\Debug\SODA.dll
+C:\Users\sacn9\source\repos\airQualityData\ui\bin\Debug\Newtonsoft.Json.xml
+C:\Users\sacn9\source\repos\airQualityData\ui\obj\Debug\ui.csprojAssemblyReference.cache
+C:\Users\sacn9\source\repos\airQualityData\ui\obj\Debug\ui.Properties.Resources.resources
+C:\Users\sacn9\source\repos\airQualityData\ui\obj\Debug\ui.csproj.GenerateResource.cache
+C:\Users\sacn9\source\repos\airQualityData\ui\obj\Debug\ui.csproj.CoreCompileInputs.cache
+C:\Users\sacn9\source\repos\airQualityData\ui\obj\Debug\ui.csproj.CopyComplete
+C:\Users\sacn9\source\repos\airQualityData\ui\obj\Debug\ui.menu.resources
+C:\Users\sacn9\source\repos\airQualityData\ui\bin\Debug\ui.exe.config
+C:\Users\sacn9\source\repos\airQualityData\ui\bin\Debug\ui.exe
+C:\Users\sacn9\source\repos\airQualityData\ui\bin\Debug\ui.pdb
+C:\Users\sacn9\source\repos\airQualityData\ui\obj\Debug\ui.exe
+C:\Users\sacn9\source\repos\airQualityData\ui\obj\Debug\ui.pdb
+C:\Users\sacn9\source\repos\airQualityData\ui\obj\Debug\ui.FormDataTable.resources
+C:\Users\sacn9\source\repos\airQualityData\ui\obj\Debug\ui.FormSODATable.resources
+C:\Users\sacn9\source\repos\airQualityData\ui\bin\Debug\CapaDatos.dll
+C:\Users\sacn9\source\repos\airQualityData\ui\bin\Debug\CapaDatos.pdb
+C:\Users\Juan Naranjo\Documents\workspace\airQualityData\ui\bin\Debug\CapaDatos.dll
+C:\Users\Juan Naranjo\Documents\workspace\airQualityData\ui\bin\Debug\CapaDatos.pdb
+C:\Users\Juan Naranjo\Documents\workspace\airQualityData\ui\obj\Debug\ui.FormDataTable.resources
+C:\Users\Juan Naranjo\Documents\workspace\airQualityData\ui\obj\Debug\ui.FormSODATable.resources
+C:\Users\Juan Naranjo\Documents\workspace\airQualityData\ui\obj\Debug\ui.menu.resources
+C:\Users\Juan Naranjo\Documents\workspace\airQualityData\ui\obj\Debug\ui.FormMaps.resources
+C:\Users\Juan Naranjo\Documents\workspace\airQualityData\Entrega 3\ui\obj\Debug\ui.csprojAssemblyReference.cache
+C:\Users\Juan Naranjo\Documents\workspace\airQualityData\Entrega 3\ui\obj\Debug\ui.FormDataTable.resources
+C:\Users\Juan Naranjo\Documents\workspace\airQualityData\Entrega 3\ui\obj\Debug\ui.FormMaps.resources
+C:\Users\Juan Naranjo\Documents\workspace\airQualityData\Entrega 3\ui\obj\Debug\ui.FormReports.resources
+C:\Users\Juan Naranjo\Documents\workspace\airQualityData\Entrega 3\ui\obj\Debug\ui.FormSODATable.resources
+C:\Users\Juan Naranjo\Documents\workspace\airQualityData\Entrega 3\ui\obj\Debug\ui.menu.resources
+C:\Users\Juan Naranjo\Documents\workspace\airQualityData\Entrega 3\ui\obj\Debug\ui.Properties.Resources.resources
+C:\Users\Juan Naranjo\Documents\workspace\airQualityData\Entrega 3\ui\obj\Debug\ui.csproj.GenerateResource.cache
+C:\Users\Juan Naranjo\Documents\workspace\airQualityData\Entrega 3\ui\obj\Debug\ui.csproj.CoreCompileInputs.cache
+C:\Users\Juan Naranjo\Documents\workspace\airQualityData\Entrega 3\ui\obj\Debug\ui.exe
+C:\Users\Juan Naranjo\Documents\workspace\airQualityData\Entrega 3\ui\obj\Debug\ui.pdb
+C:\Users\Juan Naranjo\Documents\workspace\airQualityData\Entrega 3\ui\bin\Debug\ui.exe.config
+C:\Users\Juan Naranjo\Documents\workspace\airQualityData\Entrega 3\ui\bin\Debug\ui.exe
+C:\Users\Juan Naranjo\Documents\workspace\airQualityData\Entrega 3\ui\bin\Debug\ui.pdb
+C:\Users\Juan Naranjo\Documents\workspace\airQualityData\Entrega 3\ui\bin\Debug\CapaDatos.dll
+C:\Users\Juan Naranjo\Documents\workspace\airQualityData\Entrega 3\ui\bin\Debug\GMap.NET.Core.dll
+C:\Users\Juan Naranjo\Documents\workspace\airQualityData\Entrega 3\ui\bin\Debug\GMap.NET.WindowsForms.dll
+C:\Users\Juan Naranjo\Documents\workspace\airQualityData\Entrega 3\ui\bin\Debug\LiveCharts.dll
+C:\Users\Juan Naranjo\Documents\workspace\airQualityData\Entrega 3\ui\bin\Debug\LiveCharts.WinForms.dll
+C:\Users\Juan Naranjo\Documents\workspace\airQualityData\Entrega 3\ui\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\Juan Naranjo\Documents\workspace\airQualityData\Entrega 3\ui\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Juan Naranjo\Documents\workspace\airQualityData\Entrega 3\ui\bin\Debug\SODA.dll
+C:\Users\Juan Naranjo\Documents\workspace\airQualityData\Entrega 3\ui\bin\Debug\CapaDatos.pdb
+C:\Users\Juan Naranjo\Documents\workspace\airQualityData\Entrega 3\ui\bin\Debug\LiveCharts.pdb
+C:\Users\Juan Naranjo\Documents\workspace\airQualityData\Entrega 3\ui\bin\Debug\LiveCharts.xml
+C:\Users\Juan Naranjo\Documents\workspace\airQualityData\Entrega 3\ui\bin\Debug\LiveCharts.WinForms.pdb
+C:\Users\Juan Naranjo\Documents\workspace\airQualityData\Entrega 3\ui\bin\Debug\LiveCharts.WinForms.xml
+C:\Users\Juan Naranjo\Documents\workspace\airQualityData\Entrega 3\ui\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\Juan Naranjo\Documents\workspace\airQualityData\Entrega 3\ui\bin\Debug\LiveCharts.Wpf.xml
+C:\Users\Juan Naranjo\Documents\workspace\airQualityData\Entrega 3\ui\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Juan Naranjo\Documents\workspace\airQualityData\Entrega 3\ui\obj\Debug\ui.csproj.CopyComplete
