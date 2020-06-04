@@ -13,7 +13,7 @@ This project aims to analyze from the data obtained from the data set <b><a href
 
 
 
-### *[Lecciones Aprendidas!*](https://youtu.be/_MZnXdJrkqQ)
+### [*Lecciones Aprendidas!*](https://www.youtube.com/watch?v=6nVky05gfLw)
 
 
 
@@ -23,11 +23,11 @@ This project aims to analyze from the data obtained from the data set <b><a href
   <li><div><a href="https://github.com/JDNaranjo" title="Juan Diego Naranjo">Juan Diego Naranjo</a></div></li>
   <li><div><a href="https://github.com/JuanC721" title="Juan Calderon">Juan Jose Calderon</a></div></li>
   <li><div><a href="https://github.com/sacn99" title="Sergio Cabrera">Sergio Cabrera</a></div></li>
-
   <li><div><a href="https://github.com/Yimar22" title="Yimar Tamayo">Yimar Tamayo</a></div></li>
   </ul>
 
 [![forthebadge](https://forthebadge.com/images/badges/made-with-c-sharp.svg)](https://forthebadge.com) <br>
 [![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://GitHub.com/Naereen/)
+
 
 
